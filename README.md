@@ -22,13 +22,12 @@
 
 <h2>Important points for WebDev</h2>
 <body>
-  <!-- form mae inputs aatae hai  -->
-  <!-- id aapko help karta hai elements ko individually select karna mae -->
-  <!-- Id ka name kabhi repeat mat karro  -->
-  <!-- Class ka name repeat ho sakhta hai -->
-  <!-- Tags like nav, Section, Header, Main, Aside, Article, Footer of semantic html does not do anything on it's own -->
+   form mae inputs aatae hai 
+   id aapko help karta hai elements ko individually select karna mae -->
+   Id ka name kabhi repeat mat karro  -->
+   Class ka name repeat ho sakhta hai
+   Tags like nav, Section, Header, Main, Aside, Article, Footer of semantic html does not do anything on it's own
 
-   <!-- 
 
         1.header: it consist of the first landing page
         2.nav: navigation bar
@@ -39,7 +38,6 @@
         7.Footer: footer bannane kae liyae 
         8.audio
         9.video
-    -->
 
 
 
