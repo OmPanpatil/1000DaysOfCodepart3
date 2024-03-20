@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    width: 100%;
+    padding: 12px 20px;
+    background-color: gainsboro;
+}
+
+header{
+    padding: 3vw;
+    background-color: aliceblue;
+}
+
+section{
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.sec{
+    background-color: rgb(203, 185, 220);
+}
+
+article{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(192, 170, 137);
+    width: 90%;
+    color: black;
+}
+
+aside{
+    background-color: white;
+    border-radius: 8px;
+    position: fixed;
+    right: 2;
+    top: 50%;
+    transform: translate(0,-50);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: blanchedalmond;
+}

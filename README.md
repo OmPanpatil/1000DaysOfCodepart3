@@ -19,3 +19,30 @@
 <br>
 
 <h1 align="center"></h1>
+
+<h2>Important points for WebDev</h2>
+<body>
+  <!-- form mae inputs aatae hai  -->
+  <!-- id aapko help karta hai elements ko individually select karna mae -->
+  <!-- Id ka name kabhi repeat mat karro  -->
+  <!-- Class ka name repeat ho sakhta hai -->
+  <!-- Tags like nav, Section, Header, Main, Aside, Article, Footer of semantic html does not do anything on it's own -->
+
+   <!-- 
+
+        1.header: it consist of the first landing page
+        2.nav: navigation bar
+        3.main: full or poori website isme aajayegi
+        4.Section : pages of websites
+        5.article: website kae andar jou subh element hoge unko article mein daal saktae hai
+        6.aside: side mein usually jou fixed element hote hai unke liyae use hota hai mainly
+        7.Footer: footer bannane kae liyae 
+        8.audio
+        9.video
+    -->
+
+
+
+
+
+</body>
