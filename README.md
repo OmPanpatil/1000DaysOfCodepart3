@@ -30,6 +30,38 @@
 
    <!-- 
 
+    <!-- on the regular basis for WebDev we have to follow:
+    a)html file,
+    b) css file,
+    c)linking both of them together,
+    d)to write their boilerplate:
+    1)for css:
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html,body{
+    width: 100%;
+    height: 100%;
+    }
+
+    2)for html:
+    <!Doctype html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>frontend</title>
+
+    </head>
+    <body>
+
+    </body>
+    </html
+
         1.header: it consist of the first landing page
         2.nav: navigation bar
         3.main: full or poori website isme aajayegi
@@ -40,6 +72,17 @@
         8.audio
         9.video
     -->
+
+  <h2>Important CSS basics</h2>
+
+  <p> color, font- family, units = px; vh; vw; rem;em , max-width and max-height,  font-size, line-height, text-align, padding, margin, border, display, position, background, flex, pseudoelements, pseudo classes , width and height</p>
+  DPI: Display per Inch; Pixel per inch
+  few times we can use (px): Pixel because it hides or does not make that good responsive website. 
+
+  <strong> Animation, media queries </strong>
+
+  % hamesha parent sae value lettae hai,
+  vw and vh hamesha screen sae value lettae hai.
 
 
 
