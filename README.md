@@ -22,13 +22,12 @@
 
 <h2>Important points for WebDev</h2>
 <body>
-  <!-- form mae inputs aatae hai  -->
-  <!-- id aapko help karta hai elements ko individually select karna mae -->
-  <!-- Id ka name kabhi repeat mat karro  -->
-  <!-- Class ka name repeat ho sakhta hai -->
-  <!-- Tags like nav, Section, Header, Main, Aside, Article, Footer of semantic html does not do anything on it's own -->
+   form mae inputs aatae hai 
+   id aapko help karta hai elements ko individually select karna mae -->
+   Id ka name kabhi repeat mat karro  -->
+   Class ka name repeat ho sakhta hai
+   Tags like nav, Section, Header, Main, Aside, Article, Footer of semantic html does not do anything on it's own
 
-   <!-- 
 
     <!-- on the regular basis for WebDev we have to follow:
     a)html file,
@@ -71,7 +70,6 @@
         7.Footer: footer bannane kae liyae 
         8.audio
         9.video
-    -->
 
   <h2>Important CSS basics</h2>
 
