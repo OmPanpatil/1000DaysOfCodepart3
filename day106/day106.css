@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    display: inline-block;
+    width: 5vw;
+    height: 40vh;
+    background-color: brown;
+}
+
+img{
+    width:20vw;
+    height: 50vh;
+
+}
+
+#car1{
+    width: 30px;
+    height: 70px;
+    background-color: bisque;
+}
+
+#car2{
+    position: absolute;
+    left: 50%;
+    width: 50px;
+    height: 90px;
+    background-color:aqua;
+}
+
+#car3{
+    width: 70px;
+    height: 110px;
+    background-color:brown;
+}
+
+/* position here the box is parent of cube! */
+
+#box{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    background-color: grey;
+}
+
+#cube{
+    position: absolute;
+    left: 30%;
+    width: 30vw;
+    height: 30vh;
+    background-color: bisque;
+}
+
+/* Background concept */
+
+#bardock{
+    position: relative;
+    width: 60vw;
+    height: 90vh;
+    background: url(https://dailyanimeart.files.wordpress.com/2014/02/bardock-gokus-dad-by-bardocksonic1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#goku{
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    width: 20vw;
+    height: 30vh;
+    background: url(https://i.ytimg.com/vi/mLzx6FWQjY0/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#flag{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    height: 60vh;
+    border: 5px solid black;
+}
+
+#one{
+    position: absolute;
+    bottom: 70%;
+    width: 50vw;
+    height: 20vh;
+    background-color: orange;
+    background: linear-gradient(rgb(229, 184, 99) rgb(160, 108, 12));
+
+}
+
+#two{
+    position: absolute;
+    bottom: 35%;
+    top: 35%;
+    width: 50vw;
+    height: 20vh;
+    background-color: white;
+    background: linear-gradient(rgb(245, 244, 244) rgb(170, 161, 161));
+
+}
+
+#three{
+    position: absolute;
+    bottom: 0%;
+    width: 50vw;
+    height: 20vh;
+    background-color: green;
+    background: linear-gradient(rgb(138, 196, 138) rgb(17, 122, 17));
+
+}
