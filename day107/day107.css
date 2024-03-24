@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+    width: 30vh;
+    height: 30vh;
+    background-color: burlywood;
+}
+
+#card1{
+    width: 10vh;
+    height: 10vh;
+    background-color: blue;
+}
+#card2{
+    width: 10vh;
+    height: 10vh;
+    background-color: blueviolet;
+}
+
+#card3{
+    width: 10vh;
+    height: 10vh;
+    background-color: orangered;
+}
+
+p{
+    width: fit-content;
+    position: relative;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color:burlywood;
+
+}
+
+p::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100px;
+    height: 5px;
+    background-color: aqua;
+}
+
+#container{
+    display: flex;
+    /* justify content in the row will be center, flex-start,flex-end,space around,space-between, space-evenly */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(205, 60, 205);
+}
+
+#item1{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#item2{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+#item3{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+pre{
+    color: purple;
+    position: relative;
+    width: fit-content;
+}
+
+/* pre::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(204, 103, 103);
+} */
+
+pre::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(204, 103, 103);
+}
+
+h2{
+    color: purple;
+    position: relative;
+
+}
+
+h2::first-line{
+    content: '';
+    position: absolute;
+    color: blue;
+}
+
+
+
+h1::first-letter{
+    font-size: 120px;
+}
+
+
+h3::selection{
+    content: '';
+    color: rgb(220, 196, 196);
+
+}
+
+h4:hover{
+    color: blueviolet;
+}
+
+button:active{
+    color: burlywood;
+}
+
+input:focus{
+    background-color: blanchedalmond;
+}
+
+h5:nth-child(2n){
+    content: '';
+    color: red;
+}

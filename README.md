@@ -71,6 +71,7 @@
         8.audio
         9.video
 
+
   <h2>Important CSS basics</h2>
 
   <p> color, font- family, units = px; vh; vw; rem;em , max-width and max-height,  font-size, line-height, text-align, padding, margin, border, display, position, background, flex, pseudoelements, pseudo classes , width and height</p>
@@ -81,7 +82,23 @@
 
   % hamesha parent sae value lettae hai,
   vw and vh hamesha screen sae value lettae hai.
+ <p> <strong>Pseudo-elements</strong> Pseudo- elements:
+ 1. :: before, ::after,::first-line,::first-letter,::selection</p>
 
+ <p> <strong>Pseudo-classes</strong>
+ <br> ::Hover, ::Active, ::Focus, ::nth-child(n)</p>
+
+ colour pallate website:
+ Most important part for color in dvelopment-->
+
+ 1. color name,
+ 2. Hexadecimal,
+ 3. RGB Functional Notation: RGB(0 to 255, 0 to 255, 0 to 255)
+ 4. RGBA : transparency from 0 to 1
+ 5. other color format: hsl, hsla.
+
+
+ .elem#elem$*unit
 
 
 
