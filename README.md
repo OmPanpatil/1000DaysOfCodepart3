@@ -100,7 +100,15 @@
 
  .elem#elem$*unit
 
+ <p>  Display grid is better than display flex because the display flex are in the one dimensional like 
+    we can only place them in row or column and in display flex we can only work in row or column.
+ 
+    Display grid does have the control on main and cross axis at one time in row and column at same time
+    and also at one time. And it is two dimensional i.e. it does the row and column at the same time.
 
+  </p>
 
+  <h2>Important relationship between flex and grid</h2>
+  <p> we can simply sates that the grid is used to the respective column and rows transformation at the same time by using justify-item and align-item and can be align with the help of align-content and justify-contant to locate at the axis on the screen. </p>
 
 </body>
