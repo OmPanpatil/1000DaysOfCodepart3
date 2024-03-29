@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+/* #box{
+    height: 400px;
+    width: 400px;
+    background-color: orangered;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+@keyframes move {
+
+    from{
+        left: 0;
+        background-color: red;
+        rotate: 0;
+    }
+    to{
+        left: 60%;
+        background-color: burlywood;
+        rotate: 360deg;
+    }
+    
+} */
+
+
+/* img{
+    height: 300px;
+    position: relative;
+    animation-name: monkey;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes monkey {
+    0%{
+        left: 0;
+        top: 0;
+        rotate: 360deg;
+    }
+    50%{
+        left: 80%;
+        top: 0;
+        rotate: 0deg;
+    }
+    100%{
+        left: 80%;
+        top: 50%;
+        rotate: 360deg;
+    }
+}
+  */
+
+
+
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: orangered;
+    position: relative;
+    animation-name: boxes;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+    animation-name: boxes;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes boxes{
+    from{
+        left: 0;
+        top: 0;
+    }
+
+    to{
+        left: 80%;
+        top: 0;
+    }
+}

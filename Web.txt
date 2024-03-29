@@ -1,0 +1,33 @@
+*Responsive website using HTML and CSS *
+
+--> Understanding Units:
+- px = they are fixed units if parents are getting bigger then the child will not get effected.
+- % = it get changes with respected to the parent 
+- vw, vh = > vw: according to the parent, child width and changes the value respect to device. vh: according to the parent, child height changes the value respect to device.
+- vmax, vmin => it adjust itself on the basis of the maximum width or height viewport if there is maximum width i.e. computer device it will have maximumwidth and if it have maximum hwight i.e. mobile or potrait device it will adjust it to maximum height.
+ vmin => it uses as if the width is maximum and height is minimum it will always have minimum value .ie.  height and it will not change.
+- em, rem => it is the multiple of the parent div or class. Suppose the parent width is 55px and em value is 1 then the value will be 55.
+ rem => 1 value of rem is 16 if the value of parent font size is 2px then the value will be 32px.
+
+--> Layout of Websites:
+- absolute v/s flex
+
+--> Flexbox
+- Display flex : it is in default row whenever we apply flex. in which the align items work on y-axis and justify-content. 
+--> Display Grid : in this case it uses align-content at the x and justify-content at the y-axis and it is two dimensional as it does change the row and column at the same time.
+- aligning items in y and justify content in x, aligning content in x and justify content at the y.
+- flex direction: row, column, reverse-row
+- Grid template row and column depending upon the numbers of column and rows.
+- flex wrap: no wrap , wrap
+
+--> CSS media queries: 
+- min height, min width
+- min width, max width
+
+*Key points to keep in mind to make websites Responsive: 
+
+1.CSS Flexbox
+2. CSS units
+3. Responsive Typography
+4. Mobile-first Approach
+5. Flexible Images and Media
