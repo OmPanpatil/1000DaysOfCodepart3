@@ -31,3 +31,6 @@
 3. Responsive Typography
 4. Mobile-first Approach
 5. Flexible Images and Media
+
+CSS before and after :
+content is important from where the content will display and it is virtual
