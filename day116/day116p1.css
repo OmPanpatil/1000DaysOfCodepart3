@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #ededed;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: grid;
+
+}
+
+#left-top-left{
+    background-color: crimson;
+}
+
+#left-top-right{
+    background-color: blueviolet;
+    grid-row: 1/4;
+}
+
+#left-center{
+    background-color: royalblue;
+}
+
+#left-bottom{
+    background-color: chartreuse;
+}
+
