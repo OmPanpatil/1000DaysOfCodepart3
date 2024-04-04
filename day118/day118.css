@@ -54,6 +54,11 @@ html,body{
     line-height: 23px;
     color: #333;
 }
+
+#left-top-right h6{
+    display: none;
+}
+
 #left-center{
     /* background-color: aqua; */
     grid-column: 1/3;
