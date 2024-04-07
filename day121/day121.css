@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 700; */
+    /* font-style: normal; */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 170px;
+    gap: 70px;
+}
+
+#left{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    /* font-size: 105px; */
+    font-size: 7vw;
+    font-weight: 500;
+    /* line-height: 120px; */
+    line-height: 8vw;
+}
+
+#bottom-left{
+    width: 100%;
+    /* height: 40%;         it is the height of bottom- left section. */
+    /* background-color: yellow; */
+}
+
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 22px;
+}
+
+#color h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #333;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+#left h2{
+    margin-top: 30px;
+    /* font-size: 30px; */
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+#left p{
+    /* font-size: 16px; */
+    font-size: 1.2vw;
+    width: 68%;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.7vw;
+}
+
+#right{
+    width: 33%;
+    height: 90%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#right-top h5{
+    font-size: 15px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+    object-position: 0 28%;
+}
+
+#black-circle{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(40, 40, 47);
+    color: #fff;
+    border-radius: 50%;
+    right: -16%;
+    top: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-circle h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#rotated{
+    position: absolute;
+    left: -10%;
+    bottom: 5%;
+    /* background-color: red; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+
+    #main{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 30px;
+        padding-top: 40px;
+        gap: 100px;
+    }
+
+    #left{
+        width: 100%;
+        height: 50%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        gap: 4px;
+        /* margin-left: 0%; */
+    }
+    
+    #left h1{
+        /* font-size: 105px; */
+        font-size: 19vw;
+        font-weight: 500;
+        /* line-height: 120px; */
+        line-height: 20vw;
+    }
+    
+    #bottom-left{
+        width: 100%;
+        /* height: 40%;          */
+        /* it is the height of bottom- left section. */
+        /* background-color: yellow; */
+    }
+    
+    #color{
+        /* background-color: blue; */
+        width: fit-content;
+        padding: 6px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin-top: 22px;
+    }
+    
+    #color h5{
+        font-size: 21px;
+        font-weight: 400;
+        margin-right: 5px;
+        color: #333;
+    }
+    
+    #color1{
+        height: 16px;
+        width: 16px;
+        background-color: burlywood;
+        border-radius: 50%;
+        margin: 3px;
+    }
+    
+    #color2{
+        height: 16px;
+        width: 16px;
+        background-color: lightcoral;
+        border-radius: 50%;
+    }
+    
+    #left h2{
+        margin-top: 20px;
+        /* font-size: 30px; */
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+    
+    #left p{
+        /* font-size: 16px; */
+        font-size: 3.5vw;
+        width: 80%;
+        font-weight: 600;
+        color: #333;
+        line-height: 4.8vw;
+    }
+
+    #right{
+        width: 100%;
+        height: 50%;
+        /* background-color: blue; */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #right-top{
+        height: 60px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding-right: 0px; */
+    }
+    
+    #right-top h4{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    #right-top h5{
+        font-size: 3.3vw;
+    }
+    
+    #right-top h5 i{
+        color: gold;
+    }
+    
+    #right img{
+        width: 100%;
+        height: 88%;
+        object-fit: cover;
+        object-position: 0 28%;
+        border-radius: 5px;
+    }
+    
+    #black-circle{
+        position: absolute;
+        height: 140px;
+        width: 140px;
+        background-color: rgb(40, 40, 47);
+        color: #fff;
+        border-radius: 50%;
+        right: -11%;
+        top: -15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #black-circle h5{
+        font-size: 3.5vw;
+        font-weight: 400;
+    }
+    
+    #rotated{
+        position: absolute;
+        left: 0%;
+        /* bottom: 5%; */
+        /* background-color: red; */
+        rotate: 0deg;
+        top: -13%;
+        /* transform-origin: 0 0; */
+        font-size: 6vw;
+        font-weight: 600;
+        /* margin-bottom: 18px; */
+    }
+
+    /* #rotated h2{
+        margin: 5px;
+    } */
+    
+    
+}
