@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="day128.css">
+</head>
+<body>
+    <!-- Display concept consist of:
+    a)Block, b)Inline, c)Inline Block
+    a)block:it will not allow any other tag or element aside to it as it will have full border of that element. As it will 
+    not allow any other element in it rows and the another block get shifted below. block does not allow anyone in it row.
+    And we can also increase width and height of it.
+    b)Inline: it allows the another block to come in it rows (right or left). but if there are two inline elements one upon another
+    and they are both inline it will not increase the size as width and height as they are inline.
+    And then the picture comes as "block inline".
+    c)block inline: it helps the inline to increase the width and height of the block. and for block we can state it as inline block by calling inline block.
+
+
+    -->
+    <h1>I am the Super Saiyan...</h1>
+    <p>I am the warrior you've heard of in legends, pure of heart and awakened by fury, that's what I am. I am the Super Saiyan, Son Goku!</p>
+    <img src="https://sm.mashable.com/t/mashable_me/photo/default/hd-wallpaper-goku-goku-dragon-ball-z_nuzk.720.jpg" alt="Goku">
+    <!-- Absolute position levitates the block or element and we can shift to the position we want. -->
+    <div id="car1"></div>
+    <div id="car2"></div>
+    <div id="car3"></div>
+    <!-- Relative position makes the absolute position follow it's path like a cube upon a book -->
+    <div id="box">
+        <div id="cube"></div>
+    </div>
+
+    <!-- Concept Background:
+    a)background:
+    b)background-size: cover or contain but the most preferrable is cover because the contain repeat itself in contain.
+    c)background-position: centre,top,right,left,bottom.
+    
+    -->
+
+    <div id="bardock">
+        <div id="goku"></div>
+    </div>
+
+    <!-- Flex:
+    it changes the child alignment to the positin where we want throught selecting the parent where the alignment will happen.
+    There are two axis here: a)x-axis or main axis, b)y-axis or cross axis.
+    a) X-axis: it runs in a row from left to right or vice versa. In x-axis the justify content is used.
+    b) Y-axis: it runs from top to bottom. In y-axis the align items is used.
+    -->
+
+    <div id="flag">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+    </div>
+</body>
+</html>
