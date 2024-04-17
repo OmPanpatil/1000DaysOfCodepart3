@@ -111,4 +111,6 @@
   <h2>Important relationship between flex and grid</h2>
   <p> we can simply sates that the grid is used to the respective column and rows transformation at the same time by using justify-item and align-item and can be align with the help of align-content and justify-contant to locate at the axis on the screen. </p>
 
+  mix-blend-mode to add(ov)
+
 </body>
