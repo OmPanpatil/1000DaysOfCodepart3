@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 1px;
+}
+
+#nav{
+    height: 11vh;
+    width: 100%;
+    /* background-color: red; */
+    background-color: #f8f8f8;
+    margin-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    font-family: "Oleo Script";
+    /* background-color: blue; */
+    height: 100%;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: -3px;
+}
+
+#nav h3{
+    /* background-color: blue; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-size: 2.8vh;
+    font-weight: 440;
+}
+
+#nav h3:nth-last-child(1){
+    width: 13%;
+}
+
+#nav h3:nth-last-child(2){
+    width: 24%;
+}
+
+#center{
+    height: 83.2%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw;
+    position: relative;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#overlay{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    padding: 2vw;
+}
