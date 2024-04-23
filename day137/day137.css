@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    position: relative;
+    animation-name: box1move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    position: relative;
+    animation-name: box2move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes box1move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 75%;
+
+    }
+}
+
+@keyframes box2move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 75%;
+    }
+}
